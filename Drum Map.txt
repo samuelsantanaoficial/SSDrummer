@@ -5,12 +5,12 @@ label_key38=Snare
 label_key42=Hihat CLosed
 label_key44=Hihat Pedal
 label_key46=Hihat Open
-label_key47=Tom 1
-label_key45=Tom 2
-label_key43=Tom 3
+label_key47=Tom_1
+label_key45=Tom_2
+label_key43=Tom_3
 label_key49=Crash
 label_key51=Ride
-label_key53=Ride Bell
+label_key53=Ride_Bell
 
 #define $STICKS 31
 #define $KICK 36
