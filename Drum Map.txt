@@ -1,0 +1,27 @@
+label_key31=Sticks
+label_key36=Kick
+label_key37=Sidestick
+label_key38=Snare
+label_key42=Hihat CLosed
+label_key44=Hihat Pedal
+label_key46=Hihat Open
+label_key47=Tom 1
+label_key45=Tom 2
+label_key43=Tom 3
+label_key49=Crash
+label_key51=Ride
+label_key53=Ride Bell
+
+#define $STICKS 31
+#define $KICK 36
+#define $SIDESTICK 37
+#define $SNARE 38
+#define $HIHAT_CLOSED 42
+#define $HIHAT_PEDAL 44
+#define $HIHAT_OPEN 46
+#define $Tom1 47
+#define $TOM2 45
+#define $Tom3 43
+#define $CRASH 49
+#define $RIDE 51
+#define $RIDE_BELL 53
