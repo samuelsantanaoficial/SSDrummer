@@ -1,0 +1,300 @@
+<control> default_path=Samples/
+
+label_key31=Sticks
+label_key36=Kick
+label_key37=Sidestick
+label_key38=Snare
+label_key42=Hihat CLosed
+label_key44=Hihat Pedal
+label_key46=Hihat Open
+label_key47=Tom 1
+label_key45=Tom 2
+label_key43=Tom 3
+label_key49=Crash
+label_key51=Ride
+label_key53=Ride Bell
+
+#define $STICKS 31
+#define $KICK 36
+#define $SIDESTICK 37
+#define $SNARE 38
+#define $HIHAT_CLOSED 42
+#define $HIHAT_PEDAL 44
+#define $HIHAT_OPEN 46
+#define $Tom1 47
+#define $TOM2 45
+#define $Tom3 43
+#define $CRASH 49
+#define $RIDE 51
+#define $RIDE_BELL 53
+
+label_output0=Kick
+label_output1=Snare
+label_output2=Hihat
+label_output3=Tom1
+label_output4=Tom2
+label_output5=Tom3
+label_output6=Crash
+label_output7=Ride
+
+<global> loop_mode=one_shot
+
+
+
+// KICK -------------------------------------------------------------------------------------------------------------------------------------------------
+<master> output=0 seq_length=6
+<group> key=$KICK_HIT lokey=$KICK_HIT hikey=$KICK_HIT seq_position=1
+<region> sample=Kick_1.wav lovel=0 hivel=127
+
+<group> key=$KICK_HIT lokey=$KICK_HIT hikey=$KICK_HIT seq_position=2
+<region> sample=Kick_2.wav lovel=0 hivel=127
+
+<group> key=$KICK_HIT lokey=$KICK_HIT hikey=$KICK_HIT seq_position=1
+<region> sample=Kick_3.wav lovel=0 hivel=127
+
+<group> key=$KICK_HIT lokey=$KICK_HIT hikey=$KICK_HIT seq_position=2
+<region> sample=Kick_4.wav lovel=0 hivel=127
+
+<group> key=$KICK_HIT lokey=$KICK_HIT hikey=$KICK_HIT seq_position=5
+<region> sample=Kick_5.wav lovel=0 hivel=127
+
+<group> key=$KICK_HIT lokey=$KICK_HIT hikey=$KICK_HIT seq_position=6
+<region> sample=Kick_6.wav lovel=0 hivel=127
+
+
+
+// SNARE ------------------------------------------------------------------------------------------------------------------------------------------------
+<master> output=1 seq_length=6
+<group> key=$SIDESTICK lokey=$SIDESTICK hikey=$SIDESTICK seq_position=1
+<region> sample=Sidestick_1.wav lovel=0 hivel=127
+
+<group> key=$SIDESTICK lokey=$SIDESTICK hikey=$SIDESTICK seq_position=2
+<region> sample=Sidestick_2.wav lovel=0 hivel=127
+
+<group> key=$SIDESTICK lokey=$SIDESTICK hikey=$SIDESTICK seq_position=3
+<region> sample=Sidestick_3.wav lovel=0 hivel=127
+
+<group> key=$SIDESTICK lokey=$SIDESTICK hikey=$SIDESTICK seq_position=4
+<region> sample=Sidestick_4.wav lovel=0 hivel=127
+
+<group> key=$SIDESTICK lokey=$SIDESTICK hikey=$SIDESTICK seq_position=5
+<region> sample=Sidestick_5.wav lovel=0 hivel=127
+
+<group> key=$SIDESTICK lokey=$SIDESTICK hikey=$SIDESTICK seq_position=6
+<region> sample=Sidestick_6.wav lovel=0 hivel=127
+
+
+
+<master> output=1 seq_length=6
+<group> key=$SNARE_HIT lokey=$SNARE_HIT hikey=$SNARE_HIT seq_position=1
+<region> sample=Snare_1.wav lovel=0 hivel=127
+
+<group> key=$SNARE_HIT lokey=$SNARE_HIT hikey=$SNARE_HIT seq_position=2
+<region> sample=Snare_2.wav lovel=0 hivel=127
+
+<group> key=$SNARE_HIT lokey=$SNARE_HIT hikey=$SNARE_HIT seq_position=3
+<region> sample=Snare_3.wav lovel=0 hivel=127
+
+<group> key=$SNARE_HIT lokey=$SNARE_HIT hikey=$SNARE_HIT seq_position=4
+<region> sample=Snare_4.wav lovel=0 hivel=127
+
+<group> key=$SNARE_HIT lokey=$SNARE_HIT hikey=$SNARE_HIT seq_position=5
+<region> sample=Snare_5.wav lovel=0 hivel=127
+
+<group> key=$SNARE_HIT lokey=$SNARE_HIT hikey=$SNARE_HIT seq_position=6
+<region> sample=Snare_6.wav lovel=0 hivel=127
+
+
+
+// HIHAT ------------------------------------------------------------------------------------------------------------------------------------------------
+<master> output=2 seq_length=6
+<group> key=$HIHAT_CLOSED lokey=$HIHAT_CLOSED hikey=$HIHAT_CLOSED seq_position=1
+<region> sample=Hihat_Closed_1.wav lovel=0 hivel=127
+
+<group> key=$HIHAT_CLOSED lokey=$HIHAT_CLOSED hikey=$HIHAT_CLOSED seq_position=2
+<region> sample=Hihat_Closed_2.wav lovel=0 hivel=127
+
+<group> key=$HIHAT_CLOSED lokey=$HIHAT_CLOSED hikey=$HIHAT_CLOSED seq_position=3
+<region> sample=Hihat_Closed_3.wav lovel=0 hivel=127
+
+<group> key=$HIHAT_CLOSED lokey=$HIHAT_CLOSED hikey=$HIHAT_CLOSED seq_position=4
+<region> sample=Hihat_Closed_4.wav lovel=0 hivel=127
+
+<group> key=$HIHAT_CLOSED lokey=$HIHAT_CLOSED hikey=$HIHAT_CLOSED seq_position=5
+<region> sample=Hihat_Closed_5.wav lovel=0 hivel=127
+
+<group> key=$HIHAT_CLOSED lokey=$HIHAT_CLOSED hikey=$HIHAT_CLOSED seq_position=6
+<region> sample=Hihat_Closed_6.wav lovel=0 hivel=127
+
+
+
+<master> output=2 seq_length=6
+<group> key=$HIHAT_PEDAL lokey=$HIHAT_PEDAL hikey=$HIHAT_PEDAL seq_position=1
+<region> sample=Hihat_Pedal_1.wav lovel=0 hivel=127
+
+<group> key=$HIHAT_PEDAL lokey=$HIHAT_PEDAL hikey=$HIHAT_PEDAL seq_position=2
+<region> sample=Hihat_Pedal_2.wav lovel=0 hivel=127
+
+<group> key=$HIHAT_PEDAL lokey=$HIHAT_PEDAL hikey=$HIHAT_PEDAL seq_position=3
+<region> sample=Hihat_Pedal_3.wav lovel=0 hivel=127
+
+<group> key=$HIHAT_PEDAL lokey=$HIHAT_PEDAL hikey=$HIHAT_PEDAL seq_position=4
+<region> sample=Hihat_Pedal_4.wav lovel=0 hivel=127
+
+<group> key=$HIHAT_PEDAL lokey=$HIHAT_PEDAL hikey=$HIHAT_PEDAL seq_position=5
+<region> sample=Hihat_Pedal_5.wav lovel=0 hivel=127
+
+<group> key=$HIHAT_PEDAL lokey=$HIHAT_PEDAL hikey=$HIHAT_PEDAL seq_position=6
+<region> sample=Hihat_Pedal_6.wav lovel=0 hivel=127
+
+
+
+<master> output=2 seq_length=6
+<group> key=$HIHAT_OPEN lokey=$HIHAT_OPEN hikey=$HIHAT_OPEN seq_position=1
+<region> sample=Hihat_Open_1.wav lovel=0 hivel=127
+
+<group> key=$HIHAT_OPEN lokey=$HIHAT_OPEN hikey=$HIHAT_OPEN seq_position=2
+<region> sample=Hihat_Open_2.wav lovel=0 hivel=127
+
+<group> key=$HIHAT_OPEN lokey=$HIHAT_OPEN hikey=$HIHAT_OPEN seq_position=3
+<region> sample=Hihat_Open_3.wav lovel=0 hivel=127
+
+<group> key=$HIHAT_OPEN lokey=$HIHAT_OPEN hikey=$HIHAT_OPEN seq_position=4
+<region> sample=Hihat_Open_4.wav lovel=0 hivel=127
+
+<group> key=$HIHAT_OPEN lokey=$HIHAT_OPEN hikey=$HIHAT_OPEN seq_position=5
+<region> sample=Hihat_Open_5.wav lovel=0 hivel=127
+
+<group> key=$HIHAT_OPEN lokey=$HIHAT_OPEN hikey=$HIHAT_OPEN seq_position=6
+<region> sample=Hihat_Open_6.wav lovel=0 hivel=127
+
+
+
+// TOM 1 ------------------------------------------------------------------------------------------------------------------------------------------------
+<master> output=3 seq_length=6
+<group> key=$TOM1 lokey=$TOM1 hikey=$TOM1 seq_position=1
+<region> sample=Tom1_1.wav lovel=0 hivel=127
+
+<group> key=$TOM1 lokey=$TOM1 hikey=$TOM1 seq_position=2
+<region> sample=Tom1_2.wav lovel=0 hivel=127
+
+<group> key=$TOM1 lokey=$TOM1 hikey=$TOM1 seq_position=3
+<region> sample=Tom1_3.wav lovel=0 hivel=127
+
+<group> key=$TOM1 lokey=$TOM1 hikey=$TOM1 seq_position=4
+<region> sample=Tom1_4.wav lovel=0 hivel=127
+
+<group> key=$TOM1 lokey=$TOM1 hikey=$TOM1 seq_position=5
+<region> sample=Tom1_5.wav lovel=0 hivel=127
+
+<group> key=$TOM1 lokey=$TOM1 hikey=$TOM1 seq_position=6
+<region> sample=Tom1_6.wav lovel=0 hivel=127
+
+
+
+// TOM 2 ------------------------------------------------------------------------------------------------------------------------------------------------
+<master> output=4 seq_length=6
+<group> key=$TOM2 lokey=$TOM2 hikey=$TOM2 seq_position=1
+<region> sample=Tom2_1.wav lovel=0 hivel=127
+
+<group> key=$TOM2 lokey=$TOM2 hikey=$TOM2 seq_position=2
+<region> sample=Tom2_2.wav lovel=0 hivel=127
+
+<group> key=$TOM2 lokey=$TOM2 hikey=$TOM2 seq_position=3
+<region> sample=Tom2_3.wav lovel=0 hivel=127
+
+<group> key=$TOM2 lokey=$TOM2 hikey=$TOM2 seq_position=4
+<region> sample=Tom2_4.wav lovel=0 hivel=127
+
+<group> key=$TOM2 lokey=$TOM2 hikey=$TOM2 seq_position=5
+<region> sample=Tom2_5.wav lovel=0 hivel=127
+
+<group> key=$TOM2 lokey=$TOM2 hikey=$TOM2 seq_position=6
+<region> sample=Tom2_6.wav lovel=0 hivel=127
+
+
+
+// TOM 3 ------------------------------------------------------------------------------------------------------------------------------------------------
+<master> output=5 seq_length=6
+<group> key=$TOM3 lokey=$TOM3 hikey=$TOM3 seq_position=1
+<region> sample=Tom3_1.wav lovel=0 hivel=127
+
+<group> key=$TOM3 lokey=$TOM3 hikey=$TOM3 seq_position=2
+<region> sample=Tom3_2.wav lovel=0 hivel=127
+
+<group> key=$TOM3 lokey=$TOM3 hikey=$TOM3 seq_position=3
+<region> sample=Tom3_3.wav lovel=0 hivel=127
+
+<group> key=$TOM3 lokey=$TOM3 hikey=$TOM3 seq_position=4
+<region> sample=Tom3_4.wav lovel=0 hivel=127
+
+<group> key=$TOM3 lokey=$TOM3 hikey=$TOM3 seq_position=5
+<region> sample=Tom3_5.wav lovel=0 hivel=127
+
+<group> key=$TOM3 lokey=$TOM3 hikey=$TOM3 seq_position=6
+<region> sample=Tom3_6.wav lovel=0 hivel=127
+
+
+
+// CRASH ------------------------------------------------------------------------------------------------------------------------------------------------
+<master> output=6 seq_length=6
+<group> key=$CRASH lokey=$CRASH hikey=$CRASH seq_position=1
+<region> sample=Crash_1.wav lovel=0 hivel=127
+
+<group> key=$CRASH lokey=$CRASH hikey=$CRASH seq_position=2
+<region> sample=Crash_2.wav lovel=0 hivel=127
+
+<group> key=$CRASH lokey=$CRASH hikey=$CRASH seq_position=3
+<region> sample=Crash_3.wav lovel=0 hivel=127
+
+<group> key=$CRASH lokey=$CRASH hikey=$CRASH seq_position=4
+<region> sample=Crash_4.wav lovel=0 hivel=127
+
+<group> key=$CRASH lokey=$CRASH hikey=$CRASH seq_position=5
+<region> sample=Crash_5.wav lovel=0 hivel=127
+
+<group> key=$CRASH lokey=$CRASH hikey=$CRASH seq_position=6
+<region> sample=Crash_6.wav lovel=0 hivel=127
+
+
+
+// RIDE -------------------------------------------------------------------------------------------------------------------------------------------------
+<master> output=7 seq_length=6
+<group> key=$RIDE lokey=$RIDE hikey=$RIDE seq_position=1
+<region> sample=Ride_1.wav lovel=0 hivel=127
+
+<group> key=$RIDE lokey=$RIDE hikey=$RIDE seq_position=2
+<region> sample=Ride_2.wav lovel=0 hivel=127
+
+<group> key=$RIDE lokey=$RIDE hikey=$RIDE seq_position=3
+<region> sample=Ride_3.wav lovel=0 hivel=127
+
+<group> key=$RIDE lokey=$RIDE hikey=$RIDE seq_position=4
+<region> sample=Ride_4.wav lovel=0 hivel=127
+
+<group> key=$RIDE lokey=$RIDE hikey=$RIDE seq_position=5
+<region> sample=Ride_5.wav lovel=0 hivel=127
+
+<group> key=$RIDE lokey=$RIDE hikey=$RIDE seq_position=6
+<region> sample=Ride_6.wav lovel=0 hivel=127
+
+
+
+<master> output=7 seq_length=6
+<group> key=$RIDE_BELL lokey=$RIDE_BELL hikey=$RIDE_BELL seq_position=1
+<region> sample=Ride_Bell_1.wav lovel=0 hivel=127
+
+<group> key=$RIDE_BELL lokey=$RIDE_BELL hikey=$RIDE_BELL seq_position=2
+<region> sample=Ride_Bell_2.wav lovel=0 hivel=127
+
+<group> key=$RIDE_BELL lokey=$RIDE_BELL hikey=$RIDE_BELL seq_position=3
+<region> sample=Ride_Bell_3.wav lovel=0 hivel=127
+
+<group> key=$RIDE_BELL lokey=$RIDE_BELL hikey=$RIDE_BELL seq_position=4
+<region> sample=Ride_Bell_4.wav lovel=0 hivel=127
+
+<group> key=$RIDE_BELL lokey=$RIDE_BELL hikey=$RIDE_BELL seq_position=5
+<region> sample=Ride_Bell_5.wav lovel=0 hivel=127
+
+<group> key=$RIDE_BELL lokey=$RIDE_BELL hikey=$RIDE_BELL seq_position=6
+<region> sample=Ride_Bell_6.wav lovel=0 hivel=127
