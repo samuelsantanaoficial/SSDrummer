@@ -15,8 +15,6 @@ Audio recorded by the internal microphone of the **Xiaomi Redmi Note 10S** cell 
 7. Crash
 8. Ride
 
----
-
 ## Kit
 1. Kick
 2. Snare
@@ -26,8 +24,6 @@ Audio recorded by the internal microphone of the **Xiaomi Redmi Note 10S** cell 
 6. Tom 3
 7. Crash
 8. Ride
-
----
 
 ## Drum Map GM (General Midi)
 
@@ -46,8 +42,6 @@ Audio recorded by the internal microphone of the **Xiaomi Redmi Note 10S** cell 
 - 49 Crash
 - 51 Ride
 - 53 Ride Bell
-
----
 
 ## Velocity & Round Robin
 
