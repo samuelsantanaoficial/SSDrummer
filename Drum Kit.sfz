@@ -1,5 +1,19 @@
 <control> default_path=Samples/
 
+#define $KICK 36
+#define $SIDESTICK 37
+#define $SNARE 38
+#define $HIHAT_CLOSED 42
+#define $HIHAT_PEDAL 44
+#define $HIHAT_OPEN 46
+#define $TOM1 47
+#define $TOM2 45
+#define $TOM3 43
+#define $CRASH 49
+#define $RIDE_TIP 51
+#define $RIDE_BELL 53
+#define $RIDE_EDGE 59
+
 #include "Drum Map.txt"
 
 label_output0=Kick

@@ -9,11 +9,11 @@ Pacote de samples desenvolvido a partir de gravações exclusivas de bateria ac�
 - **Gravação:** Microfone interno do celular **Xiaomi Redmi Note 10S**.
 - **Software de Gravação:** [ASR Voice Recorder](https://play.google.com/store/apps/details?id=com.nll.asr).
 - **Edição e Pós-produção:** Realizada no **Reaper**.
-- **Formato dos Arquivos:** WAV (44.1 kHz, 16-bit).
+- **Formato dos Arquivos:** WAV (44.1 kHz, 24-bit).
 
 ## Configuração do Kit de Bateria
 
-Kit acústico **Turbo Play PLYA22**.  
+Kit acústico **Turbo Play PLAY22**.
 Mais detalhes: [Loja Turbo Music](https://www.lojaturbomusic.com.br/bateria-turbo-play-milk-gold/play22-mkg/-p).
 
 ### Especificações
@@ -56,4 +56,3 @@ Mais detalhes: [Loja Turbo Music](https://www.lojaturbomusic.com.br/bateria-turb
 - [ ]  **4 Camadas de Velocity**: Em desenvolvimento.
 - [ ]  **Curva de Velocity Personalizável**: Em breve.
 - [ ]  **Mixer Integrado**: Planejado para a próxima versão.
-- [ ]  **Versão Stereo**: Em produção.
