@@ -50,7 +50,7 @@ Mais detalhes: [Loja Turbo Music](https://www.lojaturbomusic.com.br/bateria-turb
 
 ## Recursos e Melhorias
 
-- [x]  **6 Variações**: Diferentes dinâmicas para maior realismo.
+- [x]  **6 Variações**: Round-robin para maior realismo.
 - [x]  **Hihat Choke**: Controle preciso do chimbal.
 - [x]  **8 Canais**: Áudio separado para maior flexibilidade.
 - [ ]  **4 Camadas de Velocity**: Em desenvolvimento.
