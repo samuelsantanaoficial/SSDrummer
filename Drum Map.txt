@@ -10,7 +10,8 @@ label_key45=Tom_2
 label_key43=Tom_3
 label_key49=Crash
 label_key51=Ride
-label_key53=Ride_Bell
+label_key53=Ride Bell
+label_key59=Ride Edge
 
 #define $STICKS 31
 #define $KICK 36
@@ -19,9 +20,10 @@ label_key53=Ride_Bell
 #define $HIHAT_CLOSED 42
 #define $HIHAT_PEDAL 44
 #define $HIHAT_OPEN 46
-#define $Tom1 47
+#define $TOM1 47
 #define $TOM2 45
-#define $Tom3 43
+#define $TOM3 43
 #define $CRASH 49
 #define $RIDE 51
 #define $RIDE_BELL 53
+#define $RIDE_EDGE 59

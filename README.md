@@ -28,7 +28,7 @@ Audio recorded by the internal microphone of the **Xiaomi Redmi Note 10S** cell 
 ## Drum Map GM (General Midi)
 
 - 36 Kick
-- 37 Sidestick 
+- 37 Sidestick
 - 38 Snare
 
 - 42 Hihat Closed
