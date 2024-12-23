@@ -1,20 +1,6 @@
 <control> default_path=Samples/
 
-#define $KICK 36
-#define $SIDESTICK 37
-#define $SNARE 38
-#define $HIHAT_CLOSED 42
-#define $HIHAT_PEDAL 44
-#define $HIHAT_OPEN 46
-#define $TOM1 47
-#define $TOM2 45
-#define $TOM3 43
-#define $CRASH 49
-#define $RIDE_TIP 51
-#define $RIDE_BELL 53
-#define $RIDE_EDGE 59
-
-#include "Drum Map.txt"
+#include "Data/Drum Map.txt"
 
 label_output0=Kick
 label_output1=Snare
@@ -22,13 +8,15 @@ label_output2=Hihat
 label_output3=Tom1
 label_output4=Tom2
 label_output5=Tom3
-label_output6=Crash
+label_output6=Crashs
 label_output7=Ride
 
 <global> loop_mode=one_shot
 
+#include "Data/Velocity Curve.txt"
+
 // KICK //////////////////////////////////////////////////////////////////
-<master> output=0 volume=-1.5
+<master> output=0 volume=-1.5 pan=0 master_label=Kick
 
 <group> key=$KICK lokey=$KICK hikey=$KICK seq_length=6
 <region> sample=Kick-001.wav lovel=0 hivel=127 seq_position=1
@@ -46,7 +34,7 @@ label_output7=Ride
 
 
 // SNARE /////////////////////////////////////////////////////////////////
-<master> output=1 volume=-1.5
+<master> output=1 volume=-1.5 pan=0 master_label=Snare
 
 <group> key=$SIDESTICK lokey=$SIDESTICK hikey=$SIDESTICK seq_length=6
 <region> sample=Sidestick-001.wav lovel=0 hivel=127 seq_position=1
@@ -79,7 +67,7 @@ label_output7=Ride
 
 
 // HIHAT /////////////////////////////////////////////////////////////////
-<master> output=2 volume=-1.5
+<master> output=2 volume=-6 pan=-25 master_label=Hihat
 
 <group> key=$HIHAT_CLOSED lokey=$HIHAT_CLOSED hikey=$HIHAT_CLOSED seq_length=6 group=1
 <region> sample=Hihat_Closed-001.wav lovel=0 hivel=127 seq_position=1
@@ -96,7 +84,7 @@ label_output7=Ride
 
 
 
-<group> key=$HIHAT_PEDAL lokey=$HIHAT_PEDAL hikey=$HIHAT_PEDAL seq_length=6 group=1
+<group> key=$HIHAT_PEDAL lokey=$HIHAT_PEDAL hikey=$HIHAT_PEDAL seq_length=6 group=1 volume=-9
 <region> sample=Hihat_Pedal-001.wav lovel=0 hivel=127 seq_position=1
 
 <region> sample=Hihat_Pedal-002.wav lovel=0 hivel=127 seq_position=2
@@ -111,7 +99,7 @@ label_output7=Ride
 
 
 
-<group> key=$HIHAT_OPEN lokey=$HIHAT_OPEN hikey=$HIHAT_OPEN seq_length=6 ampeg_release=0.1 off_by=1
+<group> key=$HIHAT_OPEN lokey=$HIHAT_OPEN hikey=$HIHAT_OPEN seq_length=6 ampeg_release=0.1 off_by=1 volume=-9
 <region> sample=Hihat_Open-001.wav lovel=0 hivel=127 seq_position=1
 
 <region> sample=Hihat_Open-002.wav lovel=0 hivel=127 seq_position=2
@@ -127,7 +115,7 @@ label_output7=Ride
 
 
 // TOM 1 /////////////////////////////////////////////////////////////////
-<master> output=3 volume=-1.5
+<master> output=3 volume=-1.5 pan=0 master_label=Tom1
 
 <group> key=$TOM1 lokey=$TOM1 hikey=$TOM1 seq_length=6
 <region> sample=Tom1-001.wav lovel=0 hivel=127 seq_position=1
@@ -145,7 +133,7 @@ label_output7=Ride
 
 
 // TOM 2 /////////////////////////////////////////////////////////////////
-<master> output=4 volume=-1.5
+<master> output=4 volume=-1.5 pan=50 master_label=Tom2
 
 <group> key=$TOM2 lokey=$TOM2 hikey=$TOM2 seq_length=6
 <region> sample=Tom2-001.wav lovel=0 hivel=127 seq_position=1
@@ -163,7 +151,7 @@ label_output7=Ride
 
 
 // TOM 3 /////////////////////////////////////////////////////////////////
-<master> output=5 volume=-1.5
+<master> output=5 volume=-1.5 pan=75 master_label=Tom3
 
 <group> key=$TOM3 lokey=$TOM3 hikey=$TOM3 seq_length=6
 <region> sample=Tom3-001.wav lovel=0 hivel=127 seq_position=1
@@ -180,22 +168,33 @@ label_output7=Ride
 
 
 
-// CRASH /////////////////////////////////////////////////////////////////
-<master> output=6 volume=-6
+// CRASHS ////////////////////////////////////////////////////////////////
+<master> output=6 volume=-12 master_label=Crash
 
-<group> key=$CRASH lokey=$CRASH hikey=$CRASH seq_length=4
-<region> sample=Crash-001.wav lovel=0 hivel=127 seq_position=1
+<group> key=$CRASH1 lokey=$CRASH1 hikey=$CRASH1 seq_length=4 pan=-50
+<region> sample=Crash1-001.wav lovel=0 hivel=127 seq_position=1
 
-<region> sample=Crash-002.wav lovel=0 hivel=127 seq_position=2
+<region> sample=Crash1-002.wav lovel=0 hivel=127 seq_position=2
 
-<region> sample=Crash-003.wav lovel=0 hivel=127 seq_position=3
+<region> sample=Crash1-003.wav lovel=0 hivel=127 seq_position=3
 
-<region> sample=Crash-004.wav lovel=0 hivel=127 seq_position=4
+<region> sample=Crash1-004.wav lovel=0 hivel=127 seq_position=4
+
+
+
+<group> key=$CRASH2 lokey=$CRASH2 hikey=$CRASH2 seq_length=4 pan=50
+<region> sample=Crash2-001.wav lovel=0 hivel=127 seq_position=1
+
+<region> sample=Crash2-002.wav lovel=0 hivel=127 seq_position=2
+
+<region> sample=Crash2-003.wav lovel=0 hivel=127 seq_position=3
+
+<region> sample=Crash2-004.wav lovel=0 hivel=127 seq_position=4
 
 
 
 // RIDE //////////////////////////////////////////////////////////////////
-<master> output=7 volume=-6
+<master> output=7 volume=-12 pan=75 master_label=Ride
 
 <group> key=$RIDE_TIP lokey=$RIDE_TIP hikey=$RIDE_TIP seq_length=4
 <region> sample=Ride-001.wav lovel=0 hivel=127  seq_position=1

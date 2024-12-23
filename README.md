@@ -18,18 +18,20 @@ Mais detalhes: [Loja Turbo Music](https://www.lojaturbomusic.com.br/bateria-turb
 
 ### Especificações
 
-|Instrumento      |Dimensões|Modelo/Marca|
-|-----------------|---------|------------|
-|Bumbo            |22″ x 16”|Turbo Play  |
-|Caixa            |14″ x 6″ |Turbo Play  |
-|Chimbal          |14″      |            |
-|Tom 1            |10″ x 07”|Turbo Play  |
-|Tom 2            |12″ x 08”|Turbo Play  |
-|Surdo            |14” x 14”|Turbo Play  |
-|Prato de Ataque  |16″      |            |
-|Prato de Condução|20″      |            |
+|Instrumento      |Dimensões|Modelo/Marca                                                |
+|-----------------|---------|------------------------------------------------------------|
+|Bumbo            |22" x 16"|Turbo Play                                                  |
+|Caixa            |14" x 6" |Turbo Play                                                  |
+|Chimbal          |14"      |Krest Hx14 Hx Series Hi Hat - Par                           |
+|Tom 1            |10" x 07"|Turbo Play                                                  |
+|Tom 2            |12" x 08"|Turbo Play                                                  |
+|Surdo            |14" x 14"|Turbo Play                                                  |
+|Prato de Ataque 1|16"      |Crash Krest Fusion Medium 16"                               |
+|Prato de Ataque 2|16"      |Crash Zeus Custom Series Traditional 16" ZCC16 em Bronze B20|
+|Prato de Condução|20"      |Cymbal Stagg DX-R20 20" Brass Ride                          |
 
-![Turbo Play PLAY22](bateria-turbo-play-milk-gold.webp)
+![Turbo Play PLAY22 Front](front.jpg)
+![Turbo Play PLAY22 Back](back.jpg)
 
 ## Mapeamento GM (General MIDI)
 
@@ -44,8 +46,9 @@ Mais detalhes: [Loja Turbo Music](https://www.lojaturbomusic.com.br/bateria-turb
 |A1  |45  |Tom 2                   |
 |A#1 |46  |Chimbal Aberto          |
 |B1  |47  |Tom 1                   |
-|C#2 |49  |Prato de Ataque         |
+|C#2 |49  |Prato de Ataque 1       |
 |F2  |51  |Prato de Condução       |
+|C#2 |57  |Prato de Ataque 2       |
 |B2  |53  |Prato de Ataque (Cúpula)|
 
 ## Recursos e Melhorias
@@ -53,6 +56,5 @@ Mais detalhes: [Loja Turbo Music](https://www.lojaturbomusic.com.br/bateria-turb
 - [x]  **6 Variações**: Round-robin para maior realismo.
 - [x]  **Hihat Choke**: Controle preciso do chimbal.
 - [x]  **8 Canais**: Áudio separado para maior flexibilidade.
-- [ ]  **4 Camadas de Velocity**: Em desenvolvimento.
-- [ ]  **Curva de Velocity Personalizável**: Em breve.
+- [x]  **Curva de Velocity Personalizável**: Em breve.
 - [ ]  **Mixer Integrado**: Planejado para a próxima versão.
