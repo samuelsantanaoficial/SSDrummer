@@ -30,8 +30,8 @@ Mais detalhes: [Loja Turbo Music](https://www.lojaturbomusic.com.br/bateria-turb
 |Prato de Ataque 2|16"      |Crash Zeus Custom Series Traditional 16" ZCC16 em Bronze B20|
 |Prato de Condução|20"      |Cymbal Stagg DX-R20 20" Brass Ride                          |
 
-![Turbo Play PLAY22 Front](img/front.jpg)
-![Turbo Play PLAY22 Back](img/back.jpg)
+![Turbo Play PLAY22 Front](Images/front.jpg)
+![Turbo Play PLAY22 Back](Images/back.jpg)
 
 ## Mapeamento GM (General MIDI)
 
