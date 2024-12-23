@@ -1,6 +1,6 @@
 # SS Drummer
 
-> **Versão 24.12.22**
+> **Versão 24.12.23**
 
 Pacote de samples desenvolvido a partir de gravações exclusivas de bateria acústica, para [sfz](https://sfztools.github.io/sfizz/) e no padrão **General MIDI (GM)**. Ideal para produção musical usando o [sfizz](https://github.com/sfztools/sfizz-ui).
 
