@@ -99,7 +99,7 @@ label_output7=Ride
 
 
 
-<group> key=$HIHAT_OPEN lokey=$HIHAT_OPEN hikey=$HIHAT_OPEN seq_length=6 ampeg_release=0.1 off_by=1 volume=-9
+<group> key=$HIHAT_OPEN lokey=$HIHAT_OPEN hikey=$HIHAT_OPEN seq_length=6 ampeg_release=0.25 off_by=1 volume=-9
 <region> sample=Hihat_Open-001.wav lovel=0 hivel=127 seq_position=1
 
 <region> sample=Hihat_Open-002.wav lovel=0 hivel=127 seq_position=2
