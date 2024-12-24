@@ -1,3 +1,5 @@
+// 24.12.24 //////////////////////////////////////////////////////////////
+
 <control> default_path=Samples/
 
 #include "Data/Drum Map.txt"
@@ -8,7 +10,7 @@ label_output2=Hihat
 label_output3=Tom1
 label_output4=Tom2
 label_output5=Tom3
-label_output6=Crashs
+label_output6=Crash
 label_output7=Ride
 
 <global> loop_mode=one_shot
@@ -36,7 +38,7 @@ label_output7=Ride
 // SNARE /////////////////////////////////////////////////////////////////
 <master> output=1 volume=-1.5 pan=0 master_label=Snare
 
-<group> key=$SIDESTICK lokey=$SIDESTICK hikey=$SIDESTICK seq_length=6
+<group> key=$SIDESTICK lokey=$SIDESTICK hikey=$SIDESTICK seq_length=6 volume=-6
 <region> sample=Sidestick-001.wav lovel=0 hivel=127 seq_position=1
 
 <region> sample=Sidestick-002.wav lovel=0 hivel=127 seq_position=2
@@ -67,7 +69,7 @@ label_output7=Ride
 
 
 // HIHAT /////////////////////////////////////////////////////////////////
-<master> output=2 volume=-6 pan=-25 master_label=Hihat
+<master> output=2 volume=-9 pan=-25 master_label=Hihat
 
 <group> key=$HIHAT_CLOSED lokey=$HIHAT_CLOSED hikey=$HIHAT_CLOSED seq_length=6 group=1
 <region> sample=Hihat_Closed-001.wav lovel=0 hivel=127 seq_position=1
@@ -84,7 +86,7 @@ label_output7=Ride
 
 
 
-<group> key=$HIHAT_PEDAL lokey=$HIHAT_PEDAL hikey=$HIHAT_PEDAL seq_length=6 group=1 volume=-9
+<group> key=$HIHAT_PEDAL lokey=$HIHAT_PEDAL hikey=$HIHAT_PEDAL seq_length=6 group=1
 <region> sample=Hihat_Pedal-001.wav lovel=0 hivel=127 seq_position=1
 
 <region> sample=Hihat_Pedal-002.wav lovel=0 hivel=127 seq_position=2
@@ -99,7 +101,7 @@ label_output7=Ride
 
 
 
-<group> key=$HIHAT_OPEN lokey=$HIHAT_OPEN hikey=$HIHAT_OPEN seq_length=6 ampeg_release=0.25 off_by=1 volume=-9
+<group> key=$HIHAT_OPEN lokey=$HIHAT_OPEN hikey=$HIHAT_OPEN seq_length=6 ampeg_release=0.25 off_by=1
 <region> sample=Hihat_Open-001.wav lovel=0 hivel=127 seq_position=1
 
 <region> sample=Hihat_Open-002.wav lovel=0 hivel=127 seq_position=2

@@ -1,6 +1,6 @@
 # SS Drummer
 
-> **Versão 24.12.23**
+> **Versão 24.12.24**
 
 Pacote de samples desenvolvido a partir de gravações exclusivas de bateria acústica, para [sfz](https://sfztools.github.io/sfizz/) e no padrão **General MIDI (GM)**. Ideal para produção musical usando o [sfizz](https://github.com/sfztools/sfizz-ui).
 
@@ -48,14 +48,16 @@ Mais detalhes: [Loja Turbo Music](https://www.lojaturbomusic.com.br/bateria-turb
 |B1  |47  |Tom 1                   |
 |C#2 |49  |Prato de Ataque 1       |
 |F2  |51  |Prato de Condução       |
+|F2  |53  |Prato de Ataque (Cúpula)|
 |C#2 |57  |Prato de Ataque 2       |
-|B2  |53  |Prato de Ataque (Cúpula)|
+|B2  |59  |Prato de Condução       |
 
 ## Recursos e Melhorias
 
-- [x]  **6 Variações**: Round-robin para maior realismo.
-- [x]  **Hihat Choke**: Controle preciso do chimbal.
-- [x]  **8 Canais**: Áudio separado para maior flexibilidade.
-- [x]  **Drum Map Personalizável**
-- [x]  **Curva de Velocity Personalizável**
-- [ ]  **Mixer Integrado**: Planejado para a próxima versão.
+- [x]  Até 6 variações round-robin
+- [x]  Hihat choke
+- [x]  8 Canais
+- [x]  Drum Map personalizável
+- [x]  Curva de velocity personalizável
+- [x]  Midi files
+- [ ]  Mixer integrado
