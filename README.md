@@ -11,6 +11,9 @@ Pacote de samples desenvolvido a partir de gravações exclusivas de bateria ac�
 - **Edição e Pós-produção:** Realizada no **Reaper**.
 - **Formato dos Arquivos:** WAV (44.1 kHz, 24-bit).
 
+<audio controls><source src="demo.mp3" type="audio/mp3"></audio>
+![Audio Demo](demo.mp3)
+
 ## Configuração do Kit de Bateria
 
 Kit acústico **Turbo Play PLAY22**.
