@@ -1,7 +1,8 @@
 // MIDI MAP //////////////////////////////////////////////////////////////
 #define $KICK 36
 #define $SIDESTICK 37
-#define $SNARE 38
+#define $SNAREL 38
+#define $SNARER 40
 #define $HIHAT_CLOSED 42
 #define $HIHAT_PEDAL 44
 #define $HIHAT_OPEN 46
@@ -18,6 +19,7 @@
 label_key36=Kick
 label_key37=Sidestick
 label_key38=Snare
+label_key40=Snare
 label_key42=Hihat CLosed
 label_key44=Hihat Pedal
 label_key46=Hihat Open

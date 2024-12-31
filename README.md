@@ -1,6 +1,6 @@
 # SS Drummer
 
-> **Versão 24.12.24**
+> **Versão 24.12.31**
 
 Pacote de samples desenvolvido a partir de gravações exclusivas de bateria acústica, para [sfz](https://sfztools.github.io/sfizz/) e no padrão **General MIDI (GM)**. Ideal para produção musical usando o [sfizz](https://github.com/sfztools/sfizz-ui).
 
@@ -43,6 +43,7 @@ Mais detalhes: [Loja Turbo Music](https://www.lojaturbomusic.com.br/bateria-turb
 |C1  |36  |Bumbo                   |
 |C#1 |37  |Aro da Caixa            |
 |D1  |38  |Caixa                   |
+|E1  |40  |Caixa                   |
 |F#1 |42  |Chimbal Fechado         |
 |G1  |43  |Surdo                   |
 |G#1 |44  |Chimbal com Pedal       |
